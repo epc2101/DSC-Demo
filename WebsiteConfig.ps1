@@ -2,7 +2,7 @@
 {
     Node ("localhost")
     {
-        # Install the Web Server role
+        # Install the Web Server role 
         WindowsFeature IIS
         {
             Ensure = "Absent"
